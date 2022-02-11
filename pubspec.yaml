@@ -7,13 +7,12 @@ environment:
 
 dependencies: 
     # Firebase - colocar las últimas versiones
-  firebase_core:  
-  firebase_auth: 
-  firebase_storage: 
-  firebase:
-  cloud_firestore:
-  firebase_messaging: 
-
+  firebase_core: ^1.12.0
+  firebase_auth: ^3.3.7
+  firebase_storage: ^10.2.7
+  firebase: ^9.0.2 
+  cloud_firestore: ^3.1.8
+  firebase_messaging: ^11.2.6
   # Special Auth
   google_sign_in:
   flutter_facebook_auth:
