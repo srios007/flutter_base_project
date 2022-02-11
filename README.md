@@ -1,16 +1,14 @@
-# flutter_base_project
+# Flutter base projct
 
-A new Flutter project.
+Plantilla para un proyecto nuevo en flutter utilizando MVC y GetX
 
-## Getting Started
+## Contenido
 
-This project is a starting point for a Flutter application.
+Esta plantilla cuenta con las siguientes caracteristicas:
 
-A few resources to get you started if this is your first Flutter project:
+- Autenticación con Firebase.
+- Notificaciones push.
+- Arquitectura MVC para un mejor desarrollo.
+- Navegación mediante GetX.
+- Manejadores de estado de GetX para evitar utilizar setState.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
