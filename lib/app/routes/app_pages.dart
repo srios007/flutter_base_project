@@ -1,7 +1,7 @@
-import 'package:flutter_base_project/app/modules/onboarding/login/bindings/login_binding.dart';
-import 'package:flutter_base_project/app/modules/onboarding/login/views/login_view.dart';
 import 'package:flutter_base_project/app/modules/onboarding/signin/bindings/signin_binding.dart';
+import 'package:flutter_base_project/app/modules/onboarding/login/bindings/login_binding.dart';
 import 'package:flutter_base_project/app/modules/onboarding/signin/views/signin_view.dart';
+import 'package:flutter_base_project/app/modules/onboarding/login/views/login_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
 import 'package:get/get.dart';
@@ -14,17 +14,17 @@ class AppPages {
 
   static final routes = [
     GetPage(
-      name: _Paths.HOME,
+      name: Paths.HOME,
       page: () => HomeView(),
       binding: HomeBinding(),
     ),
     GetPage(
-      name: _Paths.SIGNIN,
+      name: Paths.SIGNIN,
       page: () => SigninView(),
       binding: SigninBinding(),
     ),
     GetPage(
-      name: _Paths.LOGIN,
+      name: Paths.LOGIN,
       page: () => LoginView(),
       binding: LoginBinding(),
     ),

@@ -1,9 +1,10 @@
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:flutter_base_project/app/routes/app_pages.dart';
 
 class LoginController extends GetxController {
-  //TODO: Implement LoginController
-
   final count = 0.obs;
+  final formKey = GlobalKey<FormState>();
   @override
   void onInit() {
     super.onInit();
@@ -17,4 +18,17 @@ class LoginController extends GetxController {
   @override
   void onClose() {}
   void increment() => count.value++;
+
+  validateForm() {
+    if (formKey.currentState!.validate()) {
+      goToHome();
+    }
+  }
+
+  goToHome() {
+    Get.offAllNamed(Paths.HOME);
+  }
+  goToSignIn() {
+    Get.offAllNamed(Paths.SIGNIN);
+  }
 }
