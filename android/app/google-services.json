@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "413052086026",
+    "project_id": "flutter-base-project-daf06",
+    "storage_bucket": "flutter-base-project-daf06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413052086026:android:f47ed66804d10314ea7cf3",
+        "android_client_info": {
+          "package_name": "com.srios.base"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413052086026-7uc0pdreb4f5km9g9tgpmutupuubcppo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKbWg2mG47cakU_5-vcTQjpJiZB1qnwYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413052086026-7uc0pdreb4f5km9g9tgpmutupuubcppo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,49 @@
+name: flutter_base_project
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies: 
+    # Firebase - colocar las últimas versiones
+  firebase_core:  
+  firebase_auth: 
+  firebase_storage: 
+  firebase:
+  cloud_firestore:
+  firebase_messaging: 
+
+  # Special Auth
+  google_sign_in:
+  flutter_facebook_auth:
+
+  # Other dependencies
+  intl:
+  pdf:
+  dropdown_search: ^2.0.1
+  table_calendar: ^3.0.3 # Calendario 
+  url_launcher: ^6.0.20 # Abrir una url desde el app
+  lottie: ^1.2.1 # Animaciones en formato JSON
+  syncfusion_flutter_datepicker: ^19.4.50 # Calendario para escoger una fecha
+  syncfusion_flutter_pdfviewer: ^19.4.50-beta # para visualizar pdf
+  syncfusion_flutter_xlsio: ^19.4.50-beta # Exportar datos a excel
+  open_file: ^3.2.1 # Abre el archivo generado a excel
+  shimmer: ^2.0.0 # Animación de carga
+  permission_handler: ^8.3.0 # Solicita permisos de cámara, micrófono, etc
+  flutter_multi_formatter: ^2.5.1 # Da fomratos a los String en los campos de texto 
+  cupertino_icons: 
+  get: 4.6.1
+  get_storage: ^2.0.3 # Local storage 
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^1.0.0
+  lints: 1.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
